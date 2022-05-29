@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+ 
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: rgb(248, 107, 166);
+
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+
+}
+
+.logo {
+  padding: 14px 12px;
+  background-color: rgb(238, 103, 170);
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+  font-size: 17px;
+   color: rgb(255, 251, 255);
+   margin-left: auto;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(204, 37, 176);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #e75858;
+  color: white;
+}
+
+img{
+  padding-right: 20px;
+}
+.aboutme{
+  padding-left: 50px;
+  display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.imgg{
+  display: inline-flex;
+}
+.fav{
+  
+ 
+    padding: 10px;
+    text-align: justify;
+}
+.fav_img img{
+ border-radius: 0px;
+
+}
+.tourspot{
+background-image: url('1.jpg');
+padding: 20px;
+}
+
+.favcities{
+  background-image: url('2.jpg');
+  padding: 20px;
+}
+.pers{
+
+  background-image: url('7.jpg');
+  padding: 20px;
+}
+
+.footer {
+    background: rgb(255, 108, 255);
+    text-align: center;
+    height: 100px;
+  }
